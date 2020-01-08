@@ -1,0 +1,175 @@
+.navbar-nav > .active > a {
+    color: aqua;
+    text-decoration: underline;
+    text-decoration-color: royalblue; 
+    text-decoration-style: double;
+    text-decoration-thickness: 3px;
+  }
+  
+  .jumbotron {
+      background-image: url(/Images/Profile\ Picture.png);
+      background-size: 70%;
+      background-position-x: 100%;
+      background-repeat: no-repeat;
+      height: 500px;
+      height: calc(100vh-25px);
+      display: flex;
+      align-items: left;
+      justify-content: center;
+    }
+  
+  .jumbotron h1 {
+      font-family: 'Quintessential', cursive;
+      color: royalblue;
+      text-align: left;
+    }
+  
+    .jumboCopy {
+      width: 30%;
+      min-width: 300px;
+      max-width: 600px;
+      color: royalblue;
+      text-align: left;
+      margin-right: 1000px;
+    }
+  
+    .bg-gray p {
+      text-align: center;
+    }
+  
+    .cardContainer {
+      margin-top: 20px;
+    }
+  
+    h2 {
+      font-family: 'Quintessential', cursive;
+      color: royalblue;
+      text-align: center;
+      text-shadow: royalblue;
+      padding-top: 25px;
+    }
+  
+    .card {
+      margin: 0 auto;
+      height: 300px;
+      background-color: rgba(247, 244, 244, 0.795);
+    }
+  
+    .card img {
+      height: 125px;
+      width: auto;
+    }
+  
+    .cardContainer {
+      text-align: center;
+    }
+  
+    .card-body h5 {
+      padding-top: 25px;
+    }
+  
+    .bg-light {
+      width: 100%;
+      padding: 15px;
+      align-content: center;
+    }
+  
+    .bg-light h1 {
+      text-align: center;
+    }
+    
+    .mb-4 {
+      align-items: center;
+      width: 100%;
+      margin: 25px;
+    }
+  
+    @media (max-width:1025px) {
+      .jumbotron {
+      background-color: lightgray;
+      background-size: 60%;
+      background-position-x: 100%;
+      background-repeat: no-repeat;
+      height: 500px;
+      height: calc(100vh-25px);
+      align-items: left;
+      justify-content: center;
+      }
+  
+      .jumboCopy {
+        width: 30%;
+        min-width: 400px;
+        max-width: 600px;
+        color: royalblue;
+        text-align: left;
+        margin-right: 600px;
+        padding: 15px;
+      }
+  
+  
+    .card {
+      margin: 0 auto;
+      height: 350px;
+      background-color: rgba(225, 235, 236, 0.795);
+    }
+  
+  }
+  
+  @media (max-width:768px) {
+    .jumbotron {
+      background-size: contain;
+      background-color: lightgray;
+      background-size: 50%;
+      background-position-x: 100%;
+      background-repeat: no-repeat;
+      height: 400px;
+      height: calc(100vh-25px);
+      align-items: left;
+      justify-content: center;
+    }
+  
+      .jumboCopy {
+      width: 30%;
+      min-width: 400px;
+      max-width: 600px;
+      color: royalblue;
+      text-align: left;
+      margin-right: 350px;
+      padding: 15px;
+      align-content: center;
+    }
+  
+    .card {
+      margin: 0 auto;
+      height: 300px;
+      background-color: rgba(225, 235, 236, 0.795);
+  
+    }
+  
+    @media (max-width:500px) {
+  
+    .jumbotron {
+      background-size: none;
+      background-color: lightgray;
+      background-size: 0%;
+      background-position-x: 100%;
+      background-repeat: no-repeat;
+      height: 400px;
+      height: calc(100vh-25px);
+      align-items: left;
+      justify-content: center;
+    
+    }
+  
+    .jumboCopy {
+      width: 100%;
+      min-width: 400px;
+      max-width: 600px;
+      color: royalblue;
+      text-align: left;
+      margin-right: 10px;
+      padding: 15px;
+      align-content: center;
+    }
+    }
+  }
