@@ -48,9 +48,9 @@
         <div class="jumboCopy">
           <h1 class="display-4">Jamil Mawani</h1>
           <p class="lead">UX Designer with a background in Business Management. Passionate about designing responsive websites that are valuable, accessible, desireable, usable, credible, and simple. </p>
-          <a class="btn btn-primary btn-lg" href="https://drive.google.com/file/d/1EyGTb_0kkzGTyz-x2a3ZKlRLiUH2jve9/view?usp=sharing" target="_blank" role="button">Resume</a>
-          <a class="btn btn-info btn-lg" href="https://www.linkedin.com/in/jamilmawani" target="_blank" role="button">LinkedIn</a>
-          <a class="btn btn-success btn-lg" href="https://dribbble.com/jmawani" target="_blank" role="button">Dribbble</a>
+          <a class="btn btn-primary btn-lg data-toggle="tooltip" data-placement="top" title="Resume" href="https://drive.google.com/file/d/1EyGTb_0kkzGTyz-x2a3ZKlRLiUH2jve9/view?usp=sharing" target="_blank" role="button">Resume</a>
+          <a class="btn btn-info btn-lg data-toggle= "tooltip" data-placement="top" title="LinkedIn" href="https://www.linkedin.com/in/jamilmawani" target="_blank" role="button">LinkedIn</a>
+          <a class="btn btn-success btn-lg data-toggle= "tooltip" data-placement="top" title="Dribbble" href="https://dribbble.com/jmawani" target="_blank" role="button">Dribbble</a>
         </div>
       </div>
 
@@ -74,7 +74,7 @@
           <div class="card-body">
             <h5 class="card-title"> Wax Thread & Scissors</h5>
             <p class="card-text">September 2019 - Present</p>
-            <a href="#" class="btn btn-primary">Learn More</a>
+            <a href="#" class="btn btn-primary button">Learn More</a>
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@
           <div class="card-body">
             <h5 class="card-title"> Women's Club of Sugarloaf Country Club</h5>
             <p class="card-text"> November 2019 - Present </p>
-            <a href="https://www.canva.com/design/DADrspRMBog/Rd3kP697sYwuhSey7iEsBg/view?utm_content=DADrspRMBog&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" target="_blank" class="btn btn-primary">Learn More</a>
+            <a href="https://www.canva.com/design/DADrspRMBog/Rd3kP697sYwuhSey7iEsBg/view?utm_content=DADrspRMBog&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" target="_blank" class="btn btn-primary button">Learn More</a>
           </div>
         </div>
       </div>
@@ -101,7 +101,7 @@
           <div class="card-body">
             <h5 class="card-title"> Government Website Design </h5>
             <p class="card-text">October 2019 - November 2019 </p>
-            <a href="https://www.canva.com/design/DADoSSyRc7Q/b-TyCgeNAJvw9gmLOaMT2w/view?utm_content=DADoSSyRc7Q&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" target="_blank" class="btn btn-primary">Learn More</a>
+            <a href="https://www.canva.com/design/DADoSSyRc7Q/b-TyCgeNAJvw9gmLOaMT2w/view?utm_content=DADoSSyRc7Q&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" target="_blank" class="btn btn-primary button">Learn More</a>
           </div>
         </div>
       </div>
@@ -114,7 +114,7 @@
           <div class="card-body">
             <h5 class="card-title"> Student Information System (Bloom) </h5>
             <p class="card-text">September 2019 - October 2019 </p>
-            <a href="https://docs.google.com/presentation/d/1YXvs49CzFdP4OHoHhPfYzNnchLrHBFVnBh8zXRBFieg/edit?usp=sharing" target="_blank" class="btn btn-primary">Learn More</a>
+            <a href="https://docs.google.com/presentation/d/1YXvs49CzFdP4OHoHhPfYzNnchLrHBFVnBh8zXRBFieg/edit?usp=sharing" target="_blank" class="btn btn-primary button">Learn More</a>
           </div>
         </div>
       </div>
@@ -128,7 +128,7 @@
           <div class="card-body">
             <h5 class="card-title"> Travel Planning App (Plan4U) </h5>
             <p class="card-text">August 2019</p>
-            <a href="https://www.canva.com/design/DADj6j6HVkg/rsiY2oRgE_oHlyhTKM7fnw/view?utm_content=DADj6j6HVkg&utm_campaign=designshare&utm_medium=link&utm_source=viewer" target="_blank" class="btn btn-primary">Learn More</a>
+            <a href="https://www.canva.com/design/DADj6j6HVkg/rsiY2oRgE_oHlyhTKM7fnw/view?utm_content=DADj6j6HVkg&utm_campaign=designshare&utm_medium=link&utm_source=viewer" target="_blank" class="btn btn-primary button">Learn More</a>
           </div>
         </div>
       </div>
@@ -249,9 +249,14 @@
           </form>
 
           <div class="text-center text-md-left">
-              <a class="btn btn-info" onclick="document.getElementById('contact-form').submit();">Send</a>
-          </div>
-          <div class="status"></div>
+            <button onclick="myFunction()">Send</button>
+
+            <script>
+            function myFunction() {
+              alert("Thank you for your message!");
+            }
+            </script>
+            
       </div>
       <!--Grid column-->
 
@@ -277,5 +282,7 @@
 
 </section>
 <!--Section: Contact v.2-->
+<script src="app.js"></script>
 
 </body>
+</html>
